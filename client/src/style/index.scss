@@ -248,54 +248,46 @@ main {
         margin-bottom: 2rem;
         box-shadow: 0 1px 0 0 lightgray;
         background-color: #fafafa;
+        .img-logo {
+            width: 70px;
+            height: 70px;
+            padding-left: 1rem;
+            align-self: center;
+            margin-top: 0.5rem;
+        }
     }
     .event-form-container {
         width: 100%;
         height: 320px;
-            h1{
-                font-family: $poppins;
-                font-size: 1.5rem;
-                text-align: center;
-            }
+        h1 {
+            font-family: $poppins;
+            font-size: 1.5rem;
+            text-align: center;
+        }
         form {
-            height: 100%;
+            height: 162%;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-content: center;
             background: $main_bgc;
-            opacity: 0.5;
             
-             input {
-                height: 40px;
-                width: 55%;
-                border-radius: 10px;
-                border: none;
-                margin: auto;
+          
 
-             }
+            input {
+                height: 54px;
+    width: 65%;
+    border-radius: 10px;
+    border: none;
+}
+                 
+              
+            }
 
-             button.form-btn{
+            button.form-btn {
                 width: 90px;
-                    height: 40px;
-                    border: none;
-                    border-radius: 10px;
-                    font-size: poppins;
-                    font-size: 1rem;
-                    font-weight: 800;
-                    margin-top: 1rem;
-                    align-self: center;
-                }
-
-        }
-    }
-   
-    }
-    .img-form-container{
-        display: flex;
-        flex-direction: column;
-            .img_btn{
-                width: 90px;
+                width: 141px;
+                height: 53px;
                 height: 40px;
                 border: none;
                 border-radius: 10px;
@@ -303,8 +295,28 @@ main {
                 font-size: 1rem;
                 font-weight: 800;
                 margin-top: 1rem;
-                align-self: center
+                align-self: center;
             }
+        }
+    }
 
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $paytone;
+    font-size: 20px;
+  
+}
+    .img_btn {
+        width: 141px;
+        height: 53px;
+        border: none;
+        border-radius: 10px;
+        font-family: $poppins;
+        font-size: 1rem;
+        font-weight: 800;
+        margin-top: 1rem;
+        align-self: center;
     }
 
