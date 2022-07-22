@@ -9,6 +9,8 @@ export default function Signup() {
         <h1>CharyDeep</h1>
         {/* <img src={logo} alt="Logo" /> */}
       </header>
+      <input type="checkbox" id="asso" name="asso">Je suis une association</input>
+
       <div className="form-main">
         <div className="form-title">
           <p>

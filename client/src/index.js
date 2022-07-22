@@ -19,6 +19,7 @@ import ProfilAsso from "./pages/ProfilAsso.js";
 import ProfilVlntr from "./pages/ProfilVolunteer.js";
 import Evenement from "./pages/Events";
 import AddEvents from "./pages/AddEvents";
+import BottomNavBar from "./pages/BottomNavBar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,6 +27,7 @@ root.render(
     <Routes>
     <Route path="/Homepage" exact element={<HomePage />} />
       <Route path="/" exact element={<SignIn />} />
+      <Route path="/BottomNavBar" exact element={<BottomNavBar/>} />
       <Route path="/signUp" exact element={<SignUp />} />
       <Route path="/forget" exact element={<ForgetPswd />} />
       <Route path="/search" exact element={<Search />} />
