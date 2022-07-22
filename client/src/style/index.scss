@@ -271,34 +271,29 @@ main {
             justify-content: space-around;
             align-content: center;
             background: $main_bgc;
-            
-          
 
             input {
                 height: 54px;
-    width: 65%;
-    border-radius: 10px;
-    border: none;
-}
-                 
-              
-            }
-
-            button.form-btn {
-                width: 90px;
-                width: 141px;
-                height: 53px;
-                height: 40px;
+                width: 65%;
                 border: none;
-                border-radius: 10px;
-                font-size: poppins;
-                font-size: 1rem;
-                font-weight: 800;
-                margin-top: 1rem;
-                align-self: center;
             }
         }
+
+        button.form-btn {
+            width: 90px;
+            width: 141px;
+            height: 53px;
+            height: 40px;
+            border: none;
+            border-radius: 10px;
+            font-size: poppins;
+            font-size: 1rem;
+            font-weight: 800;
+            margin-top: 1rem;
+            align-self: center;
+        }
     }
+}
 
 .form-container {
     display: flex;
@@ -306,17 +301,15 @@ main {
     align-items: center;
     font-family: $paytone;
     font-size: 20px;
-  
 }
-    .img_btn {
-        width: 141px;
-        height: 53px;
-        border: none;
-        border-radius: 10px;
-        font-family: $poppins;
-        font-size: 1rem;
-        font-weight: 800;
-        margin-top: 1rem;
-        align-self: center;
-    }
-
+.img_btn {
+    width: 141px;
+    height: 53px;
+    border: none;
+    border-radius: 10px;
+    font-family: $poppins;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    align-self: center;
+}
