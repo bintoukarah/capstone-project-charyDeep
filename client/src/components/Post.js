@@ -6,7 +6,7 @@ export default function Post() {
   return (
     <div className="post-wrapper">
       <div className="post-title">
-        <UsersAvatar className="profil_U"/>
+        <UsersAvatar />
         <p>User Name</p>
       </div>
      

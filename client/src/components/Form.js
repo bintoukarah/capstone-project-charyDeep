@@ -1,5 +1,7 @@
 import React from "react";
 import "../style/index.scss";
+import Box from '@mui/material/Box';
+
 
 export default function Form() {
   return (
@@ -13,7 +15,7 @@ export default function Form() {
       <input type="email" name="name" placeholder="Nom utilisateur ou email" />
 
       <input type="password" name="password" placeholder="Mot de passe" />
-      <button type="submit" form="nameform" value="Submit">
+      <button type="submit" form="nameform" value="Submit" sx={{boxShadow:2}}>
         Connectez-vous
       </button>
       <a href="google.fr"className="no-account">Pas de compte ? Inscrivez-vous</a>
