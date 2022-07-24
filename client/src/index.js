@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // import Form from "./components/Form";
@@ -19,14 +19,16 @@ import ProfilAsso from "./pages/ProfilAsso.js";
 import ProfilVlntr from "./pages/ProfilVolunteer.js";
 import Evenement from "./pages/Events";
 import AddEvents from "./pages/AddEvents";
+import BottomNav from "./pages/BottomNav";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-    <Route path="/homePage" exact element={<HomePage />} />
+    <Route path="/" exact element={<HomePage />} />
       <Route path="/" exact element={<SignIn />} />
-      <Route path="/signup"   element={<SignUp />} />
+      <Route path="/bt" exact element={<BottomNav />} />
+      <Route path="/signup"  exact element={<SignUp />} />
       <Route path="/forget" exact element={<ForgetPswd />} />
       <Route path="/search" exact element={<Search />} />
       <Route path="/tchat" exact element={<AllTchat />} />

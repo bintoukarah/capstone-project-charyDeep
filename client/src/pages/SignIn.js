@@ -7,7 +7,7 @@ export default function SignIn() {
   return (
     <main className="signin-main">
       <header>
-        <img src={logo} style={{height:"100px" }}alt="Logo" />
+        <img src={logo} style={{height:"100px",marginTop:"14px" }}alt="Logo" />
       </header>
       <div className="form-main">
         <div className="form-title">

@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/index.scss";
-import Box from '@mui/material/Box';
 
 
 export default function Form() {
